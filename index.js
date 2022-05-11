@@ -1,10 +1,25 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  let newString=''
+  for(let i=word.length-1; i>=0; i--){
+    newString+=word[i]
+  }
+  if (newString===word){
+    return true
+  }
+  else{
+    return false
+  }
+
 }
 
 /* 
   Add your pseudocode here
 */
+//Check a string
+//display string backwards
+//hard equal string
+//return statement
 
 /*
   Add written explanation of your solution here
